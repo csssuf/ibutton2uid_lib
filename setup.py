@@ -1,0 +1,30 @@
+from setuptools import setup
+
+setup(
+    name="ibutton2uid",
+    description="Get a user's uid given their iButton",
+    author="James Forcier",
+    author_email="csssuf@csssuf.net",
+    url="https://github.com/csssuf/ibutton2uid_lib",
+    version="1.0.0",
+    license="GPLv3",
+    classifiers = [
+        "Development Status :: 4 - Beta",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Intended Audience :: Developers",
+        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.6",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.2",
+        "Programming Language :: Python :: 3.3",
+        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
+    keywords="development ibutton csh",
+    py_modules=["ibutton2uid"],
+    install_requires=["requests"],
+)
